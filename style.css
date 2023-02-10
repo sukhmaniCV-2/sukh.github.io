@@ -1,0 +1,64 @@
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+*{
+   box-sizing: border-box;
+}
+
+ .span-22{
+    width: 10px;
+    padding: 0px 20px;
+ }
+  a{
+   color: #2e2c2c !important;
+   text-decoration: none !important ;
+   margin: 10px;
+   font-size: large;
+ }
+ footer p{
+   margin-top: 10px;
+ }
+ .btn-deep{
+   border-radius:50% ;
+   width: 300px !important;
+   height: 100px;
+ }
+ .btnn-1{
+  background-color: #009688;
+  border: none;
+  padding: 10px 10px;
+ }
+ .img-back{
+  animation-name:move;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+  height: 300px;
+
+background-repeat: no-repeat;
+background-size: cover;
+background-position: ;
+ }
+ @keyframes move{
+  0%{
+    background-image: url(img/imggd.jpg);
+    box-shadow: 5px 5px 17px #fff ;
+    
+  }
+  25%{
+    background-image: url(img/Untitled-1sssssssss.jpg);
+    box-shadow: 5px 5px 17px #2e2c2c ;
+  }
+  50%{
+    background-image: url(img/imggd.jpg);
+    box-shadow: 5px 5px 17px #fff ;
+  }
+  75%{
+    background-image: url(img/Untitled-1sssssssss.jpg);
+    box-shadow: 5px 5px 17px #2e2c2c ;
+
+  }
+  100%{
+    background-image: url(img/imggd.jpg);
+    box-shadow: 5px 5px 17px #fff ;
+
+  }
+  
+ }
